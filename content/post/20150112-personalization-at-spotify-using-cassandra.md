@@ -1,6 +1,7 @@
 +++
 date = "2015-01-12"
 title = "Personalization at Spotify using Cassandra"
+slug = "personalization-at-spotify-using-cassandra"
 aliases = [
     "/post/107894137563/personalization-at-spotify-using-cassandra"
 ]

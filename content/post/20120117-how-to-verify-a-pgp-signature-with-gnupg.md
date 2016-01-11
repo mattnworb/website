@@ -1,6 +1,7 @@
 +++
 date = "2012-01-17T00:00:00-00:00"
 title = "How to verify a PGP signature with GnuPG"
+slug = "how-to-verify-a-pgp-signature-with-gnupg"
 aliases = [
     "/post/16019918033/how-to-verify-a-pgp-signature-with-gnupg"
 ]
