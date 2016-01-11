@@ -14,7 +14,7 @@ Academy.
 Having moved within a company from a team that had nothing close to approaching
 a code review policy, to a team that almost-religiously does code reviews on
 changes regardless of size (with one caveat, it’s not required for someone to
-“OK” each review/change), I can safely say that having a code review process is
+"OK" each review/change), I can safely say that having a code review process is
 a **huge** bellwether of the overall quality of a software team.
 
 I would never want to work with a team in the future that didn’t already do

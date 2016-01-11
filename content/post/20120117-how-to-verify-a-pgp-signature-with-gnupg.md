@@ -7,7 +7,10 @@ aliases = [
 ]
 +++
 
-In case you are an idiot like me, here is a simple set of steps for verifying a PGP signature (for example, if you are downloading [the TrueCrypt installer](http://www.truecrypt.org/downloads) and you want to verify that the binary is intact).
+In case you are an idiot like me, here is a simple set of steps for verifying a
+PGP signature (for example, if you are downloading [the TrueCrypt
+installer](http://www.truecrypt.org/downloads) and you want to verify that the
+binary is intact).
 
 If you already have GnuPG or another PGP client installed, skip steps 1 and 2.
 
@@ -25,7 +28,9 @@ If you already have GnuPG or another PGP client installed, skip steps 1 and 2.
     
     Accept all of the default options.
 
-3. Download the public key of the person/institution you want to verify. For TrueCrypt, their public key is available [here](http://www.truecrypt.org/downloads2).
+3. Download the public key of the person/institution you want to verify. For
+   TrueCrypt, their public key is available
+   [here](http://www.truecrypt.org/downloads2).
 
 4. Import the person’s public key into your key ring with:
 
@@ -35,7 +40,8 @@ If you already have GnuPG or another PGP client installed, skip steps 1 and 2.
 
     (change the filename to whatever is appropriate).
 
-5. You need to sign the person’s public key with your private key, to tell PGP that you “accept” the key. This contains a few steps on it’s own:
+5. You need to sign the person’s public key with your private key, to tell PGP
+   that you "accept" the key. This contains a few steps on it’s own:
 
   1. List the keys in your keyring with
 
@@ -52,7 +58,7 @@ If you already have GnuPG or another PGP client installed, skip steps 1 and 2.
         sub   4077g/6B136ECF 2004-06-06 
         ```
 
-  2. The “name” of their key is the part after “1024D/” in the line
+  2. The "name" of their key is the part after "1024D/" in the line
 
         ```
         pub   1024D/F0D6B1E0 2004-06-06

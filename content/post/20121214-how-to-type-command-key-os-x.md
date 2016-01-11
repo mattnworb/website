@@ -10,7 +10,7 @@ aliases = [
 This was harder than I expected it to be:
 
 1. Press ⌘ ⌥ T to bring up the Character Viewer.
-2. Click the gear menu (⚙) to bring up options and choose “Customize List…”
+2. Click the gear menu (⚙) to bring up options and choose "Customize List..."
 3. Under Symbols, check the box next to Technical Symbols
 4. The command symbol (⌘) should be the first in the list.
 
