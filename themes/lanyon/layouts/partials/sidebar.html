@@ -6,15 +6,14 @@
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
       <p>Matt Brown</p>
-      <p>email</p>
-      <p>twitter</p>
-      <p>github</p>
-      <p>linkedin</p>
+      <p>Hi, my name is Matt Brown, and I am a software developer in the NYC area. This site is a collection of some things I’ve written.</p>
+      <p><a href="https://www.twitter.com/mattnworb">twitter</p>
+      <p><a href="https://www.github.com/mattnworb">github</p>
+      <p><a href="mailto:matt@mattnworb.com">email</p>
   </div>
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item {{ if eq .URL "/" }} active {{ end }}" href="/">Home</a>
-    <a class="sidebar-nav-item {{ if eq .URL "/post/" }} active {{ end }}" href="/post">Posts</a>
 
     {{ $thisperma := .Permalink }}
     {{ range .Site.Pages.ByWeight }}
@@ -25,6 +24,6 @@
   </nav>
 
   <div class="sidebar-item">
-    <p>&copy; {{ .Site.LastChange.Year }}. All rights reserved.</p>
+    <p>&copy; {{ .Site.LastChange.Year }}.
   </div>
 </div>

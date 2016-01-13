@@ -2,6 +2,8 @@ baseurl = "http://www.mattnworb.com/"
 languageCode = "en-us"
 title = "Matt Brown"
 
+#Paginate = 0
+
 [author]
     name = "Matt Brown"
 
