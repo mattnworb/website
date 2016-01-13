@@ -1,10 +1,15 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://www.mattnworb.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Matt Brown"
 
 # use hyde for now
 theme = "hyde"
 
 [params]
-DateForm = "Mon, Jan 2, 2006"
-DateFormFull = "Mon, Jan 2, 2006"
+  DateForm = "Mon, Jan 2, 2006"
+  DateFormFull = "Mon, Jan 2, 2006"
+  name = "Matt Brown"
+  bio = "person"
+  Title = "Matt Brown"
+  twitterName = "mattnworb"
+  githubName = "mattnworb"
