@@ -15,6 +15,7 @@ theme = "lanyon"
   name = "Matt Brown"
   bio = "person"
   Title = "Matt Brown"
+  Tagline = "content for you"
 
   #gravatarHash = "c11c60c7e6d29cb4b87f3c0a3b692181"
 
