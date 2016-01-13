@@ -4,3 +4,12 @@
 [submodule "themes/cocoa"]
 	path = themes/cocoa
 	url = https://github.com/nishanths/cocoa-hugo-theme.git
+[submodule "themes/cactus"]
+	path = themes/cactus
+	url = https://github.com/digitalcraftsman/hugo-cactus-theme.git
+[submodule "themes/heather"]
+	path = themes/heather
+	url = https://github.com/hbpasti/heather-hugo
+[submodule "themes/lanyon"]
+	path = themes/lanyon
+	url = https://github.com/tummychow/lanyon-hugo
