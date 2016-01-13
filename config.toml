@@ -4,3 +4,7 @@ title = "My New Hugo Site"
 
 # use hyde for now
 theme = "hyde"
+
+[params]
+DateForm = "Mon, Jan 2, 2006"
+DateFormFull = "Mon, Jan 2, 2006"
