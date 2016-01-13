@@ -2,6 +2,9 @@ baseurl = "http://www.mattnworb.com/"
 languageCode = "en-us"
 title = "Matt Brown"
 
+[author]
+    name = "Matt Brown"
+
 # use hyde for now
 theme = "hyde"
 
@@ -11,5 +14,18 @@ theme = "hyde"
   name = "Matt Brown"
   bio = "person"
   Title = "Matt Brown"
+
+  #gravatarHash = "c11c60c7e6d29cb4b87f3c0a3b692181"
+
+  twitter = "https://www.twitter.com/mattnworb"
   twitterName = "mattnworb"
+
+  github = "https://www.github.com/mattnworb"
   githubName = "mattnworb"
+
+  tagline = "TODO"
+
+[params.Authors]
+  [params.Authors.Derek]
+    "firstName"  = "Derek"
+    "lastName"   = "Perkins"
