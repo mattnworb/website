@@ -7,8 +7,7 @@ title = "Matt Brown"
 [author]
     name = "Matt Brown"
 
-# use hyde for now
-theme = "hyde"
+theme = "lanyon"
 
 [params]
   DateForm = "Mon, Jan 2, 2006"
