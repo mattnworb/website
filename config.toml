@@ -24,9 +24,3 @@ theme = "lanyon"
   github = "https://www.github.com/mattnworb"
   githubName = "mattnworb"
 
-  tagline = "TODO"
-
-[params.Authors]
-  [params.Authors.Derek]
-    "firstName"  = "Derek"
-    "lastName"   = "Perkins"
