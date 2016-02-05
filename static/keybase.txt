@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/mattnworb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.mattnworb.com
+  * I am mattnworb (https://keybase.io/mattnworb) on keybase.
+  * I have a public key ASA2R90XEzfq-WWr7zjFHZIlqA4LGdPk84bTSOt7JjgJ7wo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01203647dd171337eaf965abef38c51d9225a80e0b19d3e4f386d348eb7b263809ef0a",
+            "host": "keybase.io",
+            "kid": "01203647dd171337eaf965abef38c51d9225a80e0b19d3e4f386d348eb7b263809ef0a",
+            "uid": "eaf271ea97bb1386bca4d22a64e3f300",
+            "username": "mattnworb"
+        },
+        "service": {
+            "hostname": "www.mattnworb.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.9"
+    },
+    "ctime": 1454637799,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1454637790,
+        "hash": "66255390d98366b90287b367093fd99032dee3c13c3bb62fa921de081150fe86c42bc78e52268c68ab10ae90fc075ce8468a9d1ffb2d67e75029ee95af645cb5",
+        "seqno": 363665
+    },
+    "prev": "3163808f5ec9f1d33e1b41a3480c814250323c74282e8c38663e688c5054376e",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgNkfdFxM36vllq+84xR2SJagOCxnT5POG00jreyY4Ce8Kp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMzY0N2RkMTcxMzM3ZWFmOTY1YWJlZjM4YzUxZDkyMjVhODBlMGIxOWQzZTRmMzg2ZDM0OGViN2IyNjM4MDllZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzY0N2RkMTcxMzM3ZWFmOTY1YWJlZjM4YzUxZDkyMjVhODBlMGIxOWQzZTRmMzg2ZDM0OGViN2IyNjM4MDllZjBhIiwidWlkIjoiZWFmMjcxZWE5N2JiMTM4NmJjYTRkMjJhNjRlM2YzMDAiLCJ1c2VybmFtZSI6Im1hdHRud29yYiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoid3d3Lm1hdHRud29yYi5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjkifSwiY3RpbWUiOjE0NTQ2Mzc3OTksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ1NDYzNzc5MCwiaGFzaCI6IjY2MjU1MzkwZDk4MzY2YjkwMjg3YjM2NzA5M2ZkOTkwMzJkZWUzYzEzYzNiYjYyZmE5MjFkZTA4MTE1MGZlODZjNDJiYzc4ZTUyMjY4YzY4YWIxMGFlOTBmYzA3NWNlODQ2OGE5ZDFmZmIyZDY3ZTc1MDI5ZWU5NWFmNjQ1Y2I1Iiwic2Vxbm8iOjM2MzY2NX0sInByZXYiOiIzMTYzODA4ZjVlYzlmMWQzM2UxYjQxYTM0ODBjODE0MjUwMzIzYzc0MjgyZThjMzg2NjNlNjg4YzUwNTQzNzZlIiwic2Vxbm8iOjksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAPOVrfxTD0PtYzxHGdFCqmDAhwLqLgDm1rJihEJIcaCvCgQqqx2Ft7mf7KtgevFOfnEHy9Hx3Yi9GdmCvmkxwBqhzaWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mattnworb
+
+==================================================================
