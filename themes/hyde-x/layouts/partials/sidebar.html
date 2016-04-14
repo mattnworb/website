@@ -1,0 +1,27 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      {{ if isset .Site.Params "gravatarHash" }}
+        <img src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}?s=200"
+             alt="gravatar" title="{{ .Site.Author.name }}">
+      {{ end }}
+      <h1>{{ .Site.Author.name }}</h1>
+      {{ with .Site.Params.tagline }}<p class="lead">{{ . | markdownify }}</p>{{ end }}
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="{{ "/" | absURL }}">{{ if isset .Site.Params "home"}}{{ .Site.Params.home }}{{ else }}Blog{{ end }}</a></li>
+      {{ range .Site.Menus.main }}
+      <li class="sidebar-nav-item">{{ .Pre }}<a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+      {{end}}
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="https://www.twitter.com/mattnworb">Twitter</a></li>
+      <li class="sidebar-nav-item"><a href="https://www.github.com/mattnworb">Github</a></li>
+      <li class="sidebar-nav-item"><a href="mailto:matt@mattnworb.com">Email</a></li>
+    </ul>
+
+    <p>Copyright &copy; {{ .Now.Format "2006" }}</p>
+  </div>
+</div>
