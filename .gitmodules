@@ -1,9 +1,0 @@
-[submodule "themes/hyde"]
-	path = themes/hyde
-	url = git@github.com:spf13/hyde.git
-[submodule "themes/heather"]
-	path = themes/heather
-	url = https://github.com/hbpasti/heather-hugo
-[submodule "themes/purehugo"]
-	path = themes/purehugo
-	url = https://github.com/dplesca/purehugo
