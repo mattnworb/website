@@ -1,10 +1,10 @@
 .PHONY: clean build deploy
 
-clean:
-	rm -rf public
-
 build: clean
 	hugo -t lanyon
+
+clean:
+	rm -rf public
 
 deploy: build
 	gcloud config configurations activate personal
