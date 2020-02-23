@@ -9,6 +9,9 @@ title = "Matt Brown"
 
 theme = "lanyon"
 
+# the GA tag is embedded directly in themes/lanyon/layouts/partials/head.html
+googleAnalytics = "UA-20718522-1"
+
 [params]
   DateForm = "Mon, Jan 2, 2006"
   DateFormFull = "Mon, Jan 2, 2006"
