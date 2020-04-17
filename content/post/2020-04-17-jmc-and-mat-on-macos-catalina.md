@@ -1,7 +1,6 @@
 ---
 title: "How to run Java Mission Control and Eclipse Memory Analyzer on MacOS Catalina"
 date: 2020-04-17T10:17:54-04:00
-draft: true
 ---
 
 I am not sure if it is MacOS or the state of the Java development tool
