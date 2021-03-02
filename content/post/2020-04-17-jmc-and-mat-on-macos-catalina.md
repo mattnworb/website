@@ -39,7 +39,7 @@ by adding
 <path to java>
 ```
 
-Each argument (`-vm`, and the path to `java) have to be on their own line.
+Each argument (`-vm`, and the path to `java`) have to be on their own line.
 
 **It is important to note that this has to be at the start of the file**, adding
 these options instead to the end of the file seems to cause them to be ignored.
