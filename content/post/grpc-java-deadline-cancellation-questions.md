@@ -23,7 +23,7 @@ It has a single gRPC service where the caller can ask the server to sleep for a 
 
 https://github.com/mattnworb/sleep-service/blob/fd6c9eb6595238d262a31bed4da8c845ec09f101/protos/src/main/proto/mattnworb/sleep/v1/service.proto#L8-L17
 
-One thing I learned is that when the client deadline is exceeded, the client informs the server be resetting the stream:
+One thing I learned is that when the client deadline is exceeded, the client informs the server by resetting the stream:
 
 ```
 # server logs
