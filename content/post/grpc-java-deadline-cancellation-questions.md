@@ -21,8 +21,25 @@ I'd been meaning to learn how deadlines and cancelled calls work a little
 better, and this issue seemed like a good opportunity, so I made a small toy
 service to test with: <https://github.com/mattnworb/sleep-service>.
 
-It has a single [gRPC service and RPC method where the caller can ask the server
-to sleep for a certain amount of time before responding][sleep-proto].
+It has a single gRPC service and RPC method where the caller can ask the server
+to sleep for a certain amount of time before responding:
+
+```proto
+syntax = "proto3";
+
+package mattnworb.sleep.v1;
+
+message SleepRequest {
+    int32 sleepTimeMillis = 1;
+}
+message SleepResponse {
+    int32 timeSleptMillis = 1;
+}
+service SleepService {
+    // Sleep will send back a response after sleeping the requested amount of time in the request message.
+    rpc Sleep (SleepRequest) returns (SleepResponse) {}
+}
+```
 
 TODO: explain the code in the repo a bit. Embed the proto definition. Walk through the interceptor that lets us log when a call is started/cancelled/etc.
 
