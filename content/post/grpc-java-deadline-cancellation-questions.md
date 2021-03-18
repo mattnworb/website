@@ -105,6 +105,7 @@ TODO:
 
 - find code that receives a `RST_STREAM` and translates that into cancelling a ServerCall.
   - how does that get bubbled up to `Context.isCancelled()`?
+- also, what is a `RST_STREAM` in general?
 - link to <https://grpc.io/blog/deadlines/> to show that the server should check if the context is cancelled or not
 
 [sleep-proto]: https://github.com/mattnworb/sleep-service/blob/fd6c9eb6595238d262a31bed4da8c845ec09f101/protos/src/main/proto/mattnworb/sleep/v1/service.proto#L8-L17
