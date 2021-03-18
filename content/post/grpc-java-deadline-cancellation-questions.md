@@ -3,6 +3,7 @@ title: "How do cancellation and deadlines work in grpc-java?"
 date: 2020-04-27T20:46:09-04:00
 slug: "grpc-java-deadline-cancellation"
 ---
+(I started on this post in April 2020, wrote half of it, and then forgot about it - mid-sentence - for a long time)
 
 I have a few questions about deadlines and cancellation in grpc-java:
 
@@ -14,6 +15,21 @@ I have a few questions about deadlines and cancellation in grpc-java:
 3. When the client has a request whose deadline is exceeded, will interceptors
    attached to the call see a response that the server sends?
 
+
+TODO:
+
+- a better intro
+- explain what deadlines are and define cancellation
+  - quote the documentation.
+- the main questions I wanted to answer are:
+  - what mechanism in the client knows when a deadline has been exceeded and
+    does something to throw an exception or interrupt the client blocking on a
+    result?
+  - is there anything similar on the server-side - like a timer?
+  - does the client communicate to the server that it is considering the call
+    cancelled and not waiting any more?
+- are there any docs in <https://github.com/grpc/grpc> to link to on how this
+  should all work according to the specification?
 
 ----
 
