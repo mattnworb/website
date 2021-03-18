@@ -21,6 +21,8 @@ TODO:
 - a better intro
 - explain what deadlines are and define cancellation
   - quote the documentation.
+    - maybe <https://grpc.io/docs/what-is-grpc/core-concepts/#deadlines> and
+      <https://grpc.io/docs/what-is-grpc/core-concepts/#cancelling-an-rpc>
 - the main questions I wanted to answer are:
   - what mechanism in the client knows when a deadline has been exceeded and
     does something to throw an exception or interrupt the client blocking on a
@@ -30,6 +32,7 @@ TODO:
     cancelled and not waiting any more?
 - are there any docs in <https://github.com/grpc/grpc> to link to on how this
   should all work according to the specification?
+    - no
 
 ----
 
