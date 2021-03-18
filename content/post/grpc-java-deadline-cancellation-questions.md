@@ -1,6 +1,7 @@
 ---
 title: "Grpc Java Deadline Cancellation Questions"
 date: 2020-04-27T20:46:09-04:00
+slug: "grpc-java-deadline-cancellation"
 ---
 
 I have a few questions about deadlines and cancellation in grpc-java:
@@ -60,6 +61,7 @@ sent at "No. 33" by the client to the server (we can tell it is sent by the
 client to the server because the destination port is 5000, which the server in
 this example was listening on):
 
+<!-- can this be resized? https://gohugo.io/content-management/image-processing/  -->
 ![Wireshark screenshot](/images/2020-04-28-grpc-wireshark.png)
 
 Notice though that in the logs above, even after the server has received the
