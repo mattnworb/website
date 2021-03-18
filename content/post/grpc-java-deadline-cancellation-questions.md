@@ -1,5 +1,5 @@
 ---
-title: "Grpc Java Deadline Cancellation Questions"
+title: "How does cancellation and deadlines work in grpc-java?"
 date: 2020-04-27T20:46:09-04:00
 slug: "grpc-java-deadline-cancellation"
 ---
